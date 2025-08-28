@@ -8,12 +8,14 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "jsx": "react"
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "entry": "./src/index.tsx"
 }
